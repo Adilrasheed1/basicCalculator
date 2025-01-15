@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+#container{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+}
+
+#btn{
+    height: 8%;
+    width: 15%;
+    position: relative;
+    left: 85%;
+    top: 10px;
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    background-color: aliceblue;
+}
