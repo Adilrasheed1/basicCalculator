@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#gamecontainer{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(104, 104, 70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#optioncontainer{
+    height: 200px;
+    width: 40%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+.btns{
+    height:40px ;
+    width: 80px;
+
+}
+.btns:hover{
+    background-color: rgb(165, 40, 190,0.6);
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+.btns:active{
+    background-color: rgb(165, 40, 190,1);
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+
+.message{
+    height: 60px;
+    width: 300px;
+    background-color: bisque;
+    
+    display: none;
+}
